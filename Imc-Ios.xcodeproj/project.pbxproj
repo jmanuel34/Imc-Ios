@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		B2D6F2B72F55E70400DF20CC /* Imc-Ios2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Imc-Ios2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D6F2B72F55E70400DF20CC /* Imc-Ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Imc-Ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		B2D6F2C92F55E70400DF20CC /* Exceptions for "Imc-Ios2" folder in "Imc-Ios2" target */ = {
+		B2D6F2C92F55E70400DF20CC /* Exceptions for "Imc-Ios" folder in "Imc-Ios" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = B2D6F2B62F55E70400DF20CC /* Imc-Ios2 */;
+			target = B2D6F2B62F55E70400DF20CC /* Imc-Ios */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B2D6F2B92F55E70400DF20CC /* Imc-Ios2 */ = {
+		B2D6F2B92F55E70400DF20CC /* Imc-Ios */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				B2D6F2C92F55E70400DF20CC /* Exceptions for "Imc-Ios2" folder in "Imc-Ios2" target */,
+				B2D6F2C92F55E70400DF20CC /* Exceptions for "Imc-Ios" folder in "Imc-Ios" target */,
 			);
-			path = "Imc-Ios2";
+			path = "Imc-Ios";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,7 +45,7 @@
 		B2D6F2AE2F55E70400DF20CC = {
 			isa = PBXGroup;
 			children = (
-				B2D6F2B92F55E70400DF20CC /* Imc-Ios2 */,
+				B2D6F2B92F55E70400DF20CC /* Imc-Ios */,
 				B2D6F2B82F55E70400DF20CC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 		B2D6F2B82F55E70400DF20CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B2D6F2B72F55E70400DF20CC /* Imc-Ios2.app */,
+				B2D6F2B72F55E70400DF20CC /* Imc-Ios.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,9 +61,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B2D6F2B62F55E70400DF20CC /* Imc-Ios2 */ = {
+		B2D6F2B62F55E70400DF20CC /* Imc-Ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2D6F2CA2F55E70400DF20CC /* Build configuration list for PBXNativeTarget "Imc-Ios2" */;
+			buildConfigurationList = B2D6F2CA2F55E70400DF20CC /* Build configuration list for PBXNativeTarget "Imc-Ios" */;
 			buildPhases = (
 				B2D6F2B32F55E70400DF20CC /* Sources */,
 				B2D6F2B42F55E70400DF20CC /* Frameworks */,
@@ -74,13 +74,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				B2D6F2B92F55E70400DF20CC /* Imc-Ios2 */,
+				B2D6F2B92F55E70400DF20CC /* Imc-Ios */,
 			);
-			name = "Imc-Ios2";
+			name = "Imc-Ios";
 			packageProductDependencies = (
 			);
 			productName = "Imc-Ios2";
-			productReference = B2D6F2B72F55E70400DF20CC /* Imc-Ios2.app */;
+			productReference = B2D6F2B72F55E70400DF20CC /* Imc-Ios.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B2D6F2B22F55E70400DF20CC /* Build configuration list for PBXProject "Imc-Ios2" */;
+			buildConfigurationList = B2D6F2B22F55E70400DF20CC /* Build configuration list for PBXProject "Imc-Ios" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B2D6F2B62F55E70400DF20CC /* Imc-Ios2 */,
+				B2D6F2B62F55E70400DF20CC /* Imc-Ios */,
 			);
 		};
 /* End PBXProject section */
@@ -146,7 +146,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Imc-Ios2/Info.plist";
+				INFOPLIST_FILE = "Imc-Ios/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -157,7 +157,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.avilis.Imc-Ios2";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.avilis.Imc-Ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -177,7 +177,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Imc-Ios2/Info.plist";
+				INFOPLIST_FILE = "Imc-Ios/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -188,7 +188,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.avilis.Imc-Ios2";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.avilis.Imc-Ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B2D6F2B22F55E70400DF20CC /* Build configuration list for PBXProject "Imc-Ios2" */ = {
+		B2D6F2B22F55E70400DF20CC /* Build configuration list for PBXProject "Imc-Ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B2D6F2CD2F55E70400DF20CC /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2D6F2CA2F55E70400DF20CC /* Build configuration list for PBXNativeTarget "Imc-Ios2" */ = {
+		B2D6F2CA2F55E70400DF20CC /* Build configuration list for PBXNativeTarget "Imc-Ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B2D6F2CB2F55E70400DF20CC /* Debug */,
