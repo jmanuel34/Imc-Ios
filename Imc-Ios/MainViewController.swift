@@ -42,8 +42,9 @@ class MainViewController: UIViewController {
         // print ("He pulsado el boton")
         let heightInMeters = height / 100
         let imc = weight / pow(heightInMeters, 2)
-        print ("El IMC es : \(imc)")
-        resultado.text = "IMC: \(imc)"
+ //       print ("El IMC es : \(imc)")
+//        resultado.text = "IMC: \(imc)"
+        resultado.text = String(format: "IMC: %.2f", imc)
     }
     }
     
